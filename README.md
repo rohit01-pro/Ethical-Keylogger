@@ -151,33 +151,37 @@ pip3 package manager
 Virtual environment (recommended)
 
 Step 1: Clone the Repository
-'''bash
+~~~bash
 git clone https://github.com/yourusername/keylogger-activity-monitor.git
 cd keylogger-activity-monitor
-'''
+~~~
+
 Step 2: Create Virtual Environment
-'''bash
+~~~bash
 python3 -m venv venv 
-'''
+~~~
+
 # Activate virtual environment
 # On Linux/Mac:
-'''bash
+~~~bash
 source venv/bin/activate
-''' 
+~~~
+
 # On Windows:
-'''bash
+~~~bash
 venv\Scripts\activate
-'''
+~~~
+
 Step 3: Install Dependencies
-'''bash
+~~~bash
 pip install -r requirements.txt
-'''
+~~~
 
 Or install manually:
 
-'''bash
+~~~bash
 pip install pynput==1.7.7 watchdog==4.0.0 Pillow==10.1.0 cryptography==41.0.7 schedule==1.2.0
-'''
+~~~
 
 Project Structure
 text
@@ -215,9 +219,9 @@ keylogger-activity-monitor/
 Basic Usage
 Start the monitoring tool:
 
-'''bash
+~~~bash
 python3 main.py
-'''
+~~~
 
 Grant consent when prompted (type I AGREE)
 
@@ -240,15 +244,15 @@ Press Ctrl+C to stop all services
 View Logs
 Check log status:
 
-'''bash
+~~~bash
 python3 check_logs.py
-'''
+~~~
 
 View keystroke logs:
 
-'''bash
+~~~bash
 python3 view_logs.py
-'''
+~~~
 Decrypt Logs Manually
 python
 from encryption_manager import EncryptionManager
@@ -258,7 +262,7 @@ encryption = EncryptionManager()
 
 # Decrypt a file
 decrypted_file = encryption.decrypt_file('logs/keystrokes/keylog.txt.enc')
-⚙️ Configuration
+ Configuration
 Edit config.py to customize behavior:
 
 python
