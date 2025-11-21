@@ -288,7 +288,7 @@ export SMTP_SERVER="smtp.gmail.com"
 
 How It Works
 Architecture Overview
-text
+~~~text
 ┌─────────────────────────────────────────────────────────────┐
 │                     USER LAUNCHES APPLICATION                │
 └────────────────────────┬────────────────────────────────────┘
@@ -337,6 +337,7 @@ text
         │Email Demo │    │Local Storage │
         │(Optional) │    │ (Default)    │
         └───────────┘    └──────────────┘
+~~~
 Module Responsibilities
 1. Keylogger Module (keylogger.py)
 
