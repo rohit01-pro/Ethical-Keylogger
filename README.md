@@ -184,7 +184,7 @@ pip install pynput==1.7.7 watchdog==4.0.0 Pillow==10.1.0 cryptography==41.0.7 sc
 ~~~
 
 Project Structure
-text
+~~~text
 keylogger-activity-monitor/
 │
 ├── main.py                      # Main entry point with consent mechanism
@@ -214,7 +214,7 @@ keylogger-activity-monitor/
 ├── .gitignore                   # Git ignore rules
 ├── LICENSE                      # MIT License
 └── README.md                    # This file
-
+~~~
  Usage
 Basic Usage
 Start the monitoring tool:
