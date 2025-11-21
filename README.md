@@ -11,33 +11,19 @@ Table of Contents
 Overview
 
 Features
-
 Legal & Ethical Notice
-
 Tech Stack
-
 Installation
-
 Project Structure
-
 Usage
-
 Configuration
-
 How It Works
-
 Security Features
-
 Testing
-
 Troubleshooting
-
 Educational Value
-
 Future Enhancements
-
 Contributing
-
 License
 
 🎯 Overview
@@ -45,15 +31,10 @@ The Keylogger Activity Monitor is a comprehensive Python-based endpoint security
 
 What This Project Demonstrates
 System-Level Programming: Interaction with OS-level keyboard and file system APIs
-
 Event-Driven Architecture: Real-time monitoring using event listeners and handlers
-
 Cryptography: AES-128 symmetric encryption using Fernet
-
 Multi-Threading: Concurrent execution of monitoring modules
-
 Security Protocols: Secure email transmission via SMTP with TLS/SSL
-
 Ethical Development: Mandatory consent mechanisms and legal compliance
 
 ✨ Features
@@ -61,61 +42,42 @@ Core Functionality
 ✅ Keystroke Logging
 
 Captures all keyboard input in real-time
-
 Handles special keys (Enter, Space, Backspace, etc.)
-
 Buffered writing for optimal performance
-
 Timestamped log entries
 
 ✅ Screenshot Capture
 
 Automated periodic screen captures
-
 Configurable capture intervals
-
 PNG format with compression
-
 Threaded background execution
 
 ✅ File System Monitoring
 
 Real-time file creation/modification/deletion tracking
-
 Recursive directory monitoring
-
 Detailed activity logs with timestamps
-
 Multiple directory support
 
 ✅ Encryption & Security
 
 AES-128 encryption (Fernet) for all logs
-
 Secure key generation and storage
-
 Encrypted data at rest
-
 Secure key management practices
 
 ✅ Data Exfiltration Demo
-
 Email transmission demonstration via SMTP
-
 TLS/SSL encrypted connections
-
 Attachment support for encrypted logs
-
 Educational simulation only
 
 ✅ Ethical Safeguards
 
 Mandatory consent dialog on startup
-
 Legal disclaimer display
-
 Graceful shutdown mechanisms (ESC key)
-
 Clear educational labeling
 
 ⚖️ Legal & Ethical Notice
@@ -136,19 +98,12 @@ Legal Framework
 India: IT Act 2000 - Sections 43, 66, 72
 
 USA: Computer Fraud and Abuse Act (CFAA)
-
 EU: General Data Protection Regulation (GDPR)
-
 UK: Computer Misuse Act 1990
-
 Violations can result in:
-
 Criminal prosecution
-
 Civil liability
-
 Fines and imprisonment
-
 Permanent criminal record
 
 Ethical Use Policy
@@ -650,24 +605,16 @@ Advanced Level
  Cross-platform compatibility (Windows, Linux, Mac)
 
  Mobile device monitoring (Android/iOS)
-
- Behavioral analysis and anomaly detection
+Behavioral analysis and anomaly detection
 
 Related Projects to Build
 Network packet sniffer (using scapy)
-
 Port scanner and vulnerability checker
-
 Password strength analyzer and cracker
-
 Malware sandbox environment
-
 Intrusion Detection System (IDS)
-
 Web Application Firewall (WAF)
-
 Ransomware simulation and detection
-
 Phishing email detector using ML
 
 🤝 Contributing
@@ -676,24 +623,16 @@ Contributions are welcome! Please follow these guidelines:
 Fork the repository
 
 Create a feature branch (git checkout -b feature/AmazingFeature)
-
 Commit your changes (git commit -m 'Add some AmazingFeature')
-
 Push to the branch (git push origin feature/AmazingFeature)
-
 Open a Pull Request
 
 Contribution Guidelines
 Follow PEP 8 style guidelines
-
 Add comprehensive docstrings
-
 Include unit tests for new features
-
 Update documentation accordingly
-
 Maintain ethical use standards
-
 Add appropriate legal disclaimers
 
 📄 License
@@ -713,47 +652,34 @@ MIT License Summary
 ⚠️ License and copyright notice required
 
 👨‍💻 Author
-Your Name
+Your Name: Rohit
 
-GitHub: @yourusername
-
-LinkedIn: Your Name
-
-Email: your.email@example.com
+GitHub:github.com/rohit01-pro 
+Instagram: ex.rohittt
+Email: rockee.004@gmail.com
 
 🙏 Acknowledgments
 pynput - For excellent keyboard/mouse monitoring library
-
 watchdog - For robust file system monitoring
-
 cryptography - For professional-grade encryption tools
-
 Python Community - For extensive documentation and support
-
 Cybersecurity Community - For ethical hacking resources and guidance
 
 📖 References & Resources
 Official Documentation
 pynput Documentation
-
 watchdog Documentation
-
 Pillow Documentation
-
 cryptography Documentation
-
 Learning Resources
 MITRE ATT&CK Framework
 
 OWASP Top 10
 
 NIST Cybersecurity Framework
-
 Cybersecurity Platforms
 TryHackMe - Hands-on cybersecurity training
-
 HackTheBox - Penetration testing labs
-
 CyberDefenders - Blue team challenges
 
 ⚠️ Final Warning
@@ -762,41 +688,27 @@ This tool is a double-edged sword. While it's an excellent learning resource for
 Remember:
 
 🎓 Learning about security tools != Using them maliciously
-
 ⚖️ Knowledge brings responsibility
-
 🤝 Ethical hacking requires permission
-
 📚 Use for good, not evil
 
 Always prioritize:
-
 Consent - Get explicit permission
-
 Transparency - Be open about monitoring
-
 Compliance - Follow all applicable laws
-
 Ethics - Consider the impact on others
 
 📞 Support
 If you encounter issues or have questions:
-
 Check the Troubleshooting section
-
 Review closed issues
-
 Open a new issue
-
 Join discussions in the Discussions tab
 
 <div align="center">
-Built with ❤️ for Cybersecurity Education
+Built with rohit01-pro for Cybersecurity Education
 
 ⭐ Star this repository if you found it helpful!
-
 Report Bug · Request Feature · Documentation
-
-Remember: With great power comes great responsibility. Use wisely. 🛡️
-
+Remember: With great power comes great responsibility. Use wisely.
 </div>
