@@ -139,8 +139,10 @@ watchdog	4.0.0	File system event monitoring
 Pillow	10.1.0	Screenshot capture and image processing
 cryptography	41.0.7	Fernet symmetric encryption (AES-128)
 schedule	1.2.0	Task scheduling for periodic operations
-smtplib	Built-in	Email transmission (demo only)
+smtplib	Built-in	Email transmission.
+
 📥 Installation
+
 Prerequisites
 Python 3.8 or higher
 
@@ -149,28 +151,35 @@ pip3 package manager
 Virtual environment (recommended)
 
 Step 1: Clone the Repository
-bash
+'''bash
 git clone https://github.com/yourusername/keylogger-activity-monitor.git
 cd keylogger-activity-monitor
+'''
 Step 2: Create Virtual Environment
-bash
-# Create virtual environment
-python3 -m venv venv
-
+'''bash
+python3 -m venv venv 
+'''
 # Activate virtual environment
 # On Linux/Mac:
+'''bash
 source venv/bin/activate
-
+''' 
 # On Windows:
+'''bash
 venv\Scripts\activate
+'''
 Step 3: Install Dependencies
-bash
+'''bash
 pip install -r requirements.txt
+'''
+
 Or install manually:
 
-bash
+'''bash
 pip install pynput==1.7.7 watchdog==4.0.0 Pillow==10.1.0 cryptography==41.0.7 schedule==1.2.0
-📁 Project Structure
+'''
+
+Project Structure
 text
 keylogger-activity-monitor/
 │
@@ -201,12 +210,15 @@ keylogger-activity-monitor/
 ├── .gitignore                   # Git ignore rules
 ├── LICENSE                      # MIT License
 └── README.md                    # This file
-🚀 Usage
+
+ Usage
 Basic Usage
 Start the monitoring tool:
 
-bash
+'''bash
 python3 main.py
+'''
+
 Grant consent when prompted (type I AGREE)
 
 Monitor output in the terminal showing:
@@ -228,12 +240,15 @@ Press Ctrl+C to stop all services
 View Logs
 Check log status:
 
-bash
+'''bash
 python3 check_logs.py
+'''
+
 View keystroke logs:
 
-bash
+'''bash
 python3 view_logs.py
+'''
 Decrypt Logs Manually
 python
 from encryption_manager import EncryptionManager
@@ -266,7 +281,8 @@ export SENDER_EMAIL="your_email@gmail.com"
 export SENDER_PASSWORD="your_app_password"
 export RECEIVER_EMAIL="receiver@email.com"
 export SMTP_SERVER="smtp.gmail.com"
-🔧 How It Works
+
+How It Works
 Architecture Overview
 text
 ┌─────────────────────────────────────────────────────────────┐
